@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="stylesheet/less" href="css/global.less">
+    <link rel="stylesheet/less" href="css/about.less">
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="h_right">
+            <img src="img/p2_3.png" class="p2_3">
+        </div>
+        <div class="h_nav">
+            <div class="logo_img"><a href="index.html"><img src="img/p1_1.png" class="p1_1"></a></div>
+            <ul class="nav">
+                <li class="nav_line one_line"></li>
+                <li class="nav_item active"><a href="about.html">About</a></li>
+                <li class="nav_line two_line"></li>
+                <li class="nav_item"><a href="service.html">Service</a></li>
+                <li class="nav_line two_line"></li>
+                <li class="nav_item"><a href="mediaresource.html">Media Resource</a></li>
+            </ul>
+        </div>
+        <div class="h_main">
+            <img src="img/p2_1.png" class="p2_1">
+            <p>蒙彤传播MTOMORROW成立于2012年，是一家由策略驱动的创意输出平台，提供品牌咨询，数字营销，社会化电商及影视技术解决方案。<br><br>
+
+                总部位于上海，并设立广州分公司。发展至今，公司成员已逾150人。<br><br>
+
+                目前服务客户有：vivo，罗莱家纺，雅培，强生，Swisse合生元，360，adidas，小鹏汽车，万科，山楂树下，P&G旗下吉列、汰渍、飘柔、帮宝适、潘婷、欧乐B、Olay、沙宣、AUSSIE等客户。<br><br>
+
+                我们始终专注于为客户解决品效合一的营销挑战，助力品牌一起美好人们的生活。</p>
+        </div>
+
+    </div>
+    <div class="banner">
+        <img src="img/p2_4.png" class="p2_4">
+        <div class="white_line"></div>
+        <img src="img/p2_5.png" class="p2_5">
+        <div class="white_line"></div>
+        <img src="img/p2_6.png" class="p2_6">
+    </div>
+    <div class="footer">
+        <div class="f_people">
+            <img src="img/cybg.png" class="p2_7">
+            <div class="f_people_inner">
+                <img src="img/cy1_1.png" class="cy1_1">
+                <img src="img/cy1_9.png" class="cy1_9">
+                <div class="peo_2">
+                    <img src="img/cy2_1.png" class="cy2_1">
+                    <img src="img/cy1_2.png" class="cy1_2">
+                </div>
+                <div class="peo_3">
+                    <img src="img/cy2_2.png" class="cy2_2">
+                    <img src="img/cy1_3.png" class="cy1_3">
+                </div>
+                <div class="peo_4">
+                    <img src="img/cy2_3.png" class="cy2_3">
+                    <img src="img/cy1_4.png" class="cy1_4">
+                </div>
+                <div class="peo_9">
+                    <img src="img/cy2_8.png" class="cy2_8">
+                    <img src="img/cy1_8.png" class="cy1_8">
+                </div>
+                <div class="peo_8">
+                    <img src="img/cy2_7.png" class="cy2_7">
+                    <img src="img/cy1_7.png" class="cy1_7">
+                </div>
+                <div class="peo_7">
+                    <img src="img/cy2_6.png" class="cy2_6">
+                    <img src="img/cy1_6.png" class="cy1_6">
+                </div>
+                <div class="peo_6">
+                    <img src="img/cy2_5.png" class="cy2_5">
+                </div>
+                <div class="peo_5">
+                    <img src="img/cy2_4.png" class="cy2_4">
+                    <img src="img/cy1_5.png" class="cy1_5">
+                </div>
+
+            </div>
+        </div>
+        <div class="f_info">
+            <p class="info_name">Henry Lynn</p>
+            <div class="red_line"></div>
+            <div class="info_desc">
+                <h5>林翰宇</h5>
+                <p>精通于项目监制、后期创意制作经验，Cinema 4D 德国认证特效工程师，熟悉影视制作各环节，对影视创意与后期视效包装有独到创意，精通After Effect，Cinema
+                    4D，达芬奇调色等制作软件。曾策划监制TVC、宣传片、微电影、Viralvideo、纪录片、Demo video等多个视频种类。</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/less.js"></script>
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function () {
+        var initIndex = 1;
+        $('.f_people_inner div').on('click', function () {
+            initIndex++;
+            $(this).css('zIndex', initIndex);
+        });
+    })
+</script>
+
+</html>
